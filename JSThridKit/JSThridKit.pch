@@ -1,0 +1,16 @@
+//
+//  JSThridKit.pch
+//  JSThridKit
+//
+//  Created by gcb999 on 16/3/29.
+//  Copyright © 2016年 gcb999. All rights reserved.
+//
+
+#ifndef JSThridKit_pch
+#define JSThridKit_pch
+
+#import "Header.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* JSThridKit_pch */
