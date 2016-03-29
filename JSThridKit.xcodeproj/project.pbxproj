@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90E3D7E81CAA78D50045C54C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E3D7E71CAA78D50045C54C /* main.m */; };
+		90E3D7EB1CAA78D50045C54C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E3D7EA1CAA78D50045C54C /* AppDelegate.m */; };
+		90E3D7EE1CAA78D50045C54C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E3D7ED1CAA78D50045C54C /* ViewController.m */; };
+		90E3D7F11CAA78D50045C54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E3D7EF1CAA78D50045C54C /* Main.storyboard */; };
+		90E3D7F31CAA78D60045C54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E3D7F21CAA78D60045C54C /* Assets.xcassets */; };
+		90E3D7F61CAA78D60045C54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E3D7F41CAA78D60045C54C /* LaunchScreen.storyboard */; };
+		90E3D8011CAA78D60045C54C /* JSThridKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E3D8001CAA78D60045C54C /* JSThridKitTests.m */; };
+		90E3D80C1CAA78D60045C54C /* JSThridKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E3D80B1CAA78D60045C54C /* JSThridKitUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90E3D7FD1CAA78D60045C54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E3D7DB1CAA78D50045C54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E3D7E21CAA78D50045C54C;
+			remoteInfo = JSThridKit;
+		};
+		90E3D8081CAA78D60045C54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90E3D7DB1CAA78D50045C54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90E3D7E21CAA78D50045C54C;
+			remoteInfo = JSThridKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90E3D7E31CAA78D50045C54C /* JSThridKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSThridKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E3D7E71CAA78D50045C54C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90E3D7E91CAA78D50045C54C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90E3D7EA1CAA78D50045C54C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90E3D7EC1CAA78D50045C54C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90E3D7ED1CAA78D50045C54C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90E3D7F01CAA78D50045C54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90E3D7F21CAA78D60045C54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90E3D7F51CAA78D60045C54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90E3D7F71CAA78D60045C54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E3D7FC1CAA78D60045C54C /* JSThridKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSThridKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E3D8001CAA78D60045C54C /* JSThridKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSThridKitTests.m; sourceTree = "<group>"; };
+		90E3D8021CAA78D60045C54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E3D8071CAA78D60045C54C /* JSThridKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSThridKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E3D80B1CAA78D60045C54C /* JSThridKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSThridKitUITests.m; sourceTree = "<group>"; };
+		90E3D80D1CAA78D60045C54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90E3D7E01CAA78D50045C54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3D7F91CAA78D60045C54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3D8041CAA78D60045C54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90E3D7DA1CAA78D50045C54C = {
+			isa = PBXGroup;
+			children = (
+				90E3D7E51CAA78D50045C54C /* JSThridKit */,
+				90E3D7FF1CAA78D60045C54C /* JSThridKitTests */,
+				90E3D80A1CAA78D60045C54C /* JSThridKitUITests */,
+				90E3D7E41CAA78D50045C54C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90E3D7E41CAA78D50045C54C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90E3D7E31CAA78D50045C54C /* JSThridKit.app */,
+				90E3D7FC1CAA78D60045C54C /* JSThridKitTests.xctest */,
+				90E3D8071CAA78D60045C54C /* JSThridKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90E3D7E51CAA78D50045C54C /* JSThridKit */ = {
+			isa = PBXGroup;
+			children = (
+				90E3D7E91CAA78D50045C54C /* AppDelegate.h */,
+				90E3D7EA1CAA78D50045C54C /* AppDelegate.m */,
+				90E3D7EC1CAA78D50045C54C /* ViewController.h */,
+				90E3D7ED1CAA78D50045C54C /* ViewController.m */,
+				90E3D7EF1CAA78D50045C54C /* Main.storyboard */,
+				90E3D7F21CAA78D60045C54C /* Assets.xcassets */,
+				90E3D7F41CAA78D60045C54C /* LaunchScreen.storyboard */,
+				90E3D7F71CAA78D60045C54C /* Info.plist */,
+				90E3D7E61CAA78D50045C54C /* Supporting Files */,
+			);
+			path = JSThridKit;
+			sourceTree = "<group>";
+		};
+		90E3D7E61CAA78D50045C54C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90E3D7E71CAA78D50045C54C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90E3D7FF1CAA78D60045C54C /* JSThridKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				90E3D8001CAA78D60045C54C /* JSThridKitTests.m */,
+				90E3D8021CAA78D60045C54C /* Info.plist */,
+			);
+			path = JSThridKitTests;
+			sourceTree = "<group>";
+		};
+		90E3D80A1CAA78D60045C54C /* JSThridKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90E3D80B1CAA78D60045C54C /* JSThridKitUITests.m */,
+				90E3D80D1CAA78D60045C54C /* Info.plist */,
+			);
+			path = JSThridKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90E3D7E21CAA78D50045C54C /* JSThridKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E3D8101CAA78D60045C54C /* Build configuration list for PBXNativeTarget "JSThridKit" */;
+			buildPhases = (
+				90E3D7DF1CAA78D50045C54C /* Sources */,
+				90E3D7E01CAA78D50045C54C /* Frameworks */,
+				90E3D7E11CAA78D50045C54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSThridKit;
+			productName = JSThridKit;
+			productReference = 90E3D7E31CAA78D50045C54C /* JSThridKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90E3D7FB1CAA78D60045C54C /* JSThridKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E3D8131CAA78D60045C54C /* Build configuration list for PBXNativeTarget "JSThridKitTests" */;
+			buildPhases = (
+				90E3D7F81CAA78D60045C54C /* Sources */,
+				90E3D7F91CAA78D60045C54C /* Frameworks */,
+				90E3D7FA1CAA78D60045C54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E3D7FE1CAA78D60045C54C /* PBXTargetDependency */,
+			);
+			name = JSThridKitTests;
+			productName = JSThridKitTests;
+			productReference = 90E3D7FC1CAA78D60045C54C /* JSThridKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90E3D8061CAA78D60045C54C /* JSThridKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90E3D8161CAA78D60045C54C /* Build configuration list for PBXNativeTarget "JSThridKitUITests" */;
+			buildPhases = (
+				90E3D8031CAA78D60045C54C /* Sources */,
+				90E3D8041CAA78D60045C54C /* Frameworks */,
+				90E3D8051CAA78D60045C54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E3D8091CAA78D60045C54C /* PBXTargetDependency */,
+			);
+			name = JSThridKitUITests;
+			productName = JSThridKitUITests;
+			productReference = 90E3D8071CAA78D60045C54C /* JSThridKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90E3D7DB1CAA78D50045C54C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = gcb999;
+				TargetAttributes = {
+					90E3D7E21CAA78D50045C54C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					90E3D7FB1CAA78D60045C54C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 90E3D7E21CAA78D50045C54C;
+					};
+					90E3D8061CAA78D60045C54C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 90E3D7E21CAA78D50045C54C;
+					};
+				};
+			};
+			buildConfigurationList = 90E3D7DE1CAA78D50045C54C /* Build configuration list for PBXProject "JSThridKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90E3D7DA1CAA78D50045C54C;
+			productRefGroup = 90E3D7E41CAA78D50045C54C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90E3D7E21CAA78D50045C54C /* JSThridKit */,
+				90E3D7FB1CAA78D60045C54C /* JSThridKitTests */,
+				90E3D8061CAA78D60045C54C /* JSThridKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90E3D7E11CAA78D50045C54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3D7F61CAA78D60045C54C /* LaunchScreen.storyboard in Resources */,
+				90E3D7F31CAA78D60045C54C /* Assets.xcassets in Resources */,
+				90E3D7F11CAA78D50045C54C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3D7FA1CAA78D60045C54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3D8051CAA78D60045C54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90E3D7DF1CAA78D50045C54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3D7EE1CAA78D50045C54C /* ViewController.m in Sources */,
+				90E3D7EB1CAA78D50045C54C /* AppDelegate.m in Sources */,
+				90E3D7E81CAA78D50045C54C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3D7F81CAA78D60045C54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3D8011CAA78D60045C54C /* JSThridKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E3D8031CAA78D60045C54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E3D80C1CAA78D60045C54C /* JSThridKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90E3D7FE1CAA78D60045C54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E3D7E21CAA78D50045C54C /* JSThridKit */;
+			targetProxy = 90E3D7FD1CAA78D60045C54C /* PBXContainerItemProxy */;
+		};
+		90E3D8091CAA78D60045C54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90E3D7E21CAA78D50045C54C /* JSThridKit */;
+			targetProxy = 90E3D8081CAA78D60045C54C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90E3D7EF1CAA78D50045C54C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E3D7F01CAA78D50045C54C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90E3D7F41CAA78D60045C54C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90E3D7F51CAA78D60045C54C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90E3D80E1CAA78D60045C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90E3D80F1CAA78D60045C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E3D8111CAA78D60045C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSThridKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gcb999.JSThridKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90E3D8121CAA78D60045C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSThridKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gcb999.JSThridKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90E3D8141CAA78D60045C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSThridKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gcb999.JSThridKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSThridKit.app/JSThridKit";
+			};
+			name = Debug;
+		};
+		90E3D8151CAA78D60045C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSThridKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gcb999.JSThridKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSThridKit.app/JSThridKit";
+			};
+			name = Release;
+		};
+		90E3D8171CAA78D60045C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSThridKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gcb999.JSThridKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSThridKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		90E3D8181CAA78D60045C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSThridKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gcb999.JSThridKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSThridKit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90E3D7DE1CAA78D50045C54C /* Build configuration list for PBXProject "JSThridKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E3D80E1CAA78D60045C54C /* Debug */,
+				90E3D80F1CAA78D60045C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E3D8101CAA78D60045C54C /* Build configuration list for PBXNativeTarget "JSThridKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E3D8111CAA78D60045C54C /* Debug */,
+				90E3D8121CAA78D60045C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90E3D8131CAA78D60045C54C /* Build configuration list for PBXNativeTarget "JSThridKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E3D8141CAA78D60045C54C /* Debug */,
+				90E3D8151CAA78D60045C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90E3D8161CAA78D60045C54C /* Build configuration list for PBXNativeTarget "JSThridKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E3D8171CAA78D60045C54C /* Debug */,
+				90E3D8181CAA78D60045C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90E3D7DB1CAA78D50045C54C /* Project object */;
+}
