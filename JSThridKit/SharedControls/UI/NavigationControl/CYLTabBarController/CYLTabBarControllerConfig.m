@@ -28,7 +28,7 @@
 
 
 //View Controllers
-#import "AccountViewController.h"
+#import "HeaderAnimationTableViewViewController.h"
 #import "HomeViewController.h"
 //#import "CYLMessageViewController.h"
 //#import "CYLMineViewController.h"
@@ -61,7 +61,7 @@
         UIViewController *thirdNavigationController = [[CYLBaseNavigationController alloc]
                                                        initWithRootViewController:thirdViewController];
         
-        AccountViewController *fourthViewController = [[AccountViewController alloc] init];
+        HeaderAnimationTableViewViewController *fourthViewController = [[HeaderAnimationTableViewViewController alloc] init];
         UIViewController *fourthNavigationController = [[CYLBaseNavigationController alloc]
                                                         initWithRootViewController:fourthViewController];
        

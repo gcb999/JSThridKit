@@ -1,21 +1,22 @@
 //
-//  AccountViewController.m
+//  FirstViewController.m
 //  JSThridKit
 //
 //  Created by gcb999 on 16/3/29.
 //  Copyright © 2016年 gcb999. All rights reserved.
 //
 
-#import "AccountViewController.h"
+#import "FirstViewController.h"
 
-@interface AccountViewController ()
+@interface FirstViewController ()
 
 @end
 
-@implementation AccountViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=KCOLOR_RED;
     // Do any additional setup after loading the view.
 }
 

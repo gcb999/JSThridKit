@@ -1,5 +1,5 @@
 //
-//  AccountViewController.h
+//  NormalCollecionViewController.h
 //  JSThridKit
 //
 //  Created by gcb999 on 16/3/29.
@@ -8,6 +8,6 @@
 
 #import "JSBasicViewController.h"
 
-@interface AccountViewController : JSBasicViewController
+@interface NormalCollecionViewController : JSBasicViewController
 
 @end

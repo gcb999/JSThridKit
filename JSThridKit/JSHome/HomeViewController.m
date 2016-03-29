@@ -9,6 +9,17 @@
 #import "HomeViewController.h"
 #import "HomeTableCell.h"
 
+//tableview
+#import "NormalTableViewController.h"
+#import "HeaderAnimationTableViewViewController.h"
+
+//collectionview
+#import "NormalCollecionViewController.h"
+#import "FlowOutCollectionViewController.h"
+//tabbar
+#import "JSTabbarViewController.h"
+
+
 @interface HomeViewController ()<JSTableViewControllerDelegate>
 
 @end
@@ -56,26 +67,26 @@
 
 -(void)JSTableViewController:(JSTableViewController *)SWCtrl didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-//    if (indexPath.row==0) {
-//        MJPullTableVIewController *ctrl=[[MJPullTableVIewController alloc] init];
-//        [self.navigationController pushViewController:ctrl animated:YES];
-//    }
-//    else if (indexPath.row==1) {
-//        HeaderAnmaitonViewController *ctrl=[[HeaderAnmaitonViewController alloc] init];
-//        [self.navigationController pushViewController:ctrl animated:YES];
-//    }
-//    else if (indexPath.row==2) {
-//        MJPullCollectionViewController *ctrl=[[MJPullCollectionViewController alloc] init];
-//        [self.navigationController pushViewController:ctrl animated:YES];
-//    }
-//    else if (indexPath.row==3) {
-//        FlowOutControllerViewController *ctrl=[[FlowOutControllerViewController alloc] init];
-//        [self.navigationController pushViewController:ctrl animated:YES];
-//    }
-//    else if (indexPath.row==4) {
-//        CYLTabBarViewController *ctrl=[[CYLTabBarViewController alloc] init];
-//        [self.navigationController pushViewController:ctrl animated:YES];
-//    }
+    if (indexPath.row==0) {
+        NormalTableViewController *ctrl=[[NormalTableViewController alloc] init];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
+    else if (indexPath.row==1) {
+        HeaderAnimationTableViewViewController *ctrl=[[HeaderAnimationTableViewViewController alloc] init];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
+    else if (indexPath.row==2) {
+        NormalCollecionViewController *ctrl=[[NormalCollecionViewController alloc] init];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
+    else if (indexPath.row==3) {
+        FlowOutCollectionViewController *ctrl=[[FlowOutCollectionViewController alloc] init];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
+    else if (indexPath.row==4) {
+        JSTabbarViewController *ctrl=[[JSTabbarViewController alloc] init];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
     //CYLTabBarViewController
     
     
