@@ -152,6 +152,16 @@
 		90E80F1B1CAA85F100F5BF51 /* no-wifi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E80F181CAA85F100F5BF51 /* no-wifi@3x.png */; };
 		90E80F1D1CAA85F800F5BF51 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90E80F1C1CAA85F800F5BF51 /* photo.jpg */; };
 		90E80F1F1CAA85FF00F5BF51 /* WebView_LoadFail_Refresh_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E80F1E1CAA85FF00F5BF51 /* WebView_LoadFail_Refresh_Icon@2x.png */; };
+		90F402CE1CAD14D000E3FA01 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F402CB1CAD14D000E3FA01 /* JASidePanelController.m */; };
+		90F402CF1CAD14D000E3FA01 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F402CD1CAD14D000E3FA01 /* UIViewController+JASidePanel.m */; };
+		90F402D31CAD156900E3FA01 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F402D21CAD156900E3FA01 /* LeftViewController.m */; };
+		90F402D61CAD15FF00E3FA01 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F402D51CAD15FF00E3FA01 /* RightViewController.m */; };
+		90F402DC1CAD1EBE00E3FA01 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F402DB1CAD1EBE00E3FA01 /* CenterViewController.m */; };
+		90F5C73F1CAB83A700D82FC0 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F5C73D1CAB83A700D82FC0 /* HUD.m */; };
+		90F5C7431CAB83D100D82FC0 /* HudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F5C7421CAB83D100D82FC0 /* HudViewController.m */; };
+		90F5C7461CAB840700D82FC0 /* HudTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F5C7451CAB840700D82FC0 /* HudTableCell.m */; };
+		90F5C74C1CABC1DD00D82FC0 /* RJCircularLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F5C7491CABC1DD00D82FC0 /* RJCircularLoaderView.m */; };
+		90F5C74D1CABC1DD00D82FC0 /* UIImageView+RJLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F5C74B1CABC1DD00D82FC0 /* UIImageView+RJLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -454,6 +464,26 @@
 		90E80F181CAA85F100F5BF51 /* no-wifi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-wifi@3x.png"; sourceTree = "<group>"; };
 		90E80F1C1CAA85F800F5BF51 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 		90E80F1E1CAA85FF00F5BF51 /* WebView_LoadFail_Refresh_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WebView_LoadFail_Refresh_Icon@2x.png"; sourceTree = "<group>"; };
+		90F402CA1CAD14D000E3FA01 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		90F402CB1CAD14D000E3FA01 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		90F402CC1CAD14D000E3FA01 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		90F402CD1CAD14D000E3FA01 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		90F402D11CAD156900E3FA01 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		90F402D21CAD156900E3FA01 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		90F402D41CAD15FF00E3FA01 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		90F402D51CAD15FF00E3FA01 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		90F402DA1CAD1EBE00E3FA01 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		90F402DB1CAD1EBE00E3FA01 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		90F5C73C1CAB83A700D82FC0 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		90F5C73D1CAB83A700D82FC0 /* HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
+		90F5C7411CAB83D100D82FC0 /* HudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudViewController.h; sourceTree = "<group>"; };
+		90F5C7421CAB83D100D82FC0 /* HudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudViewController.m; sourceTree = "<group>"; };
+		90F5C7441CAB840700D82FC0 /* HudTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudTableCell.h; sourceTree = "<group>"; };
+		90F5C7451CAB840700D82FC0 /* HudTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudTableCell.m; sourceTree = "<group>"; };
+		90F5C7481CABC1DD00D82FC0 /* RJCircularLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJCircularLoaderView.h; sourceTree = "<group>"; };
+		90F5C7491CABC1DD00D82FC0 /* RJCircularLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJCircularLoaderView.m; sourceTree = "<group>"; };
+		90F5C74A1CABC1DD00D82FC0 /* UIImageView+RJLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RJLoader.h"; sourceTree = "<group>"; };
+		90F5C74B1CABC1DD00D82FC0 /* UIImageView+RJLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RJLoader.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -504,6 +534,7 @@
 		90E3D7E51CAA78D50045C54C /* JSThridKit */ = {
 			isa = PBXGroup;
 			children = (
+				90F402D01CAD155500E3FA01 /* 侧滑 */,
 				90E80F131CAA85CA00F5BF51 /* image */,
 				90E80D531CAA7DA500F5BF51 /* SharedControls */,
 				90E80D521CAA7CEF00F5BF51 /* JSHome */,
@@ -550,6 +581,7 @@
 		90E80D521CAA7CEF00F5BF51 /* JSHome */ = {
 			isa = PBXGroup;
 			children = (
+				90F5C7401CAB83BE00D82FC0 /* Hud */,
 				90E80EF21CAA80E200F5BF51 /* collectionView用法 */,
 				90E80EF31CAA80E200F5BF51 /* tabbar用法 */,
 				90E80EF41CAA80E200F5BF51 /* tableview用法 */,
@@ -896,6 +928,9 @@
 		90E80DFE1CAA7DA500F5BF51 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				90F402C91CAD14D000E3FA01 /* JASidePanels */,
+				90F5C7471CABC1D000D82FC0 /* RJImageLoader */,
+				90F5C7391CAB83A700D82FC0 /* HUD */,
 				90E80DFF1CAA7DA500F5BF51 /* AdControl */,
 				90E80E101CAA7DA500F5BF51 /* JSBasicViewController */,
 				90E80E131CAA7DA500F5BF51 /* JSList */,
@@ -1265,6 +1300,61 @@
 			path = image;
 			sourceTree = "<group>";
 		};
+		90F402C91CAD14D000E3FA01 /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				90F402CA1CAD14D000E3FA01 /* JASidePanelController.h */,
+				90F402CB1CAD14D000E3FA01 /* JASidePanelController.m */,
+				90F402CC1CAD14D000E3FA01 /* UIViewController+JASidePanel.h */,
+				90F402CD1CAD14D000E3FA01 /* UIViewController+JASidePanel.m */,
+			);
+			path = JASidePanels;
+			sourceTree = "<group>";
+		};
+		90F402D01CAD155500E3FA01 /* 侧滑 */ = {
+			isa = PBXGroup;
+			children = (
+				90F402D11CAD156900E3FA01 /* LeftViewController.h */,
+				90F402D21CAD156900E3FA01 /* LeftViewController.m */,
+				90F402D41CAD15FF00E3FA01 /* RightViewController.h */,
+				90F402D51CAD15FF00E3FA01 /* RightViewController.m */,
+				90F402DA1CAD1EBE00E3FA01 /* CenterViewController.h */,
+				90F402DB1CAD1EBE00E3FA01 /* CenterViewController.m */,
+			);
+			path = "侧滑";
+			sourceTree = "<group>";
+		};
+		90F5C7391CAB83A700D82FC0 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				90F5C73C1CAB83A700D82FC0 /* HUD.h */,
+				90F5C73D1CAB83A700D82FC0 /* HUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		90F5C7401CAB83BE00D82FC0 /* Hud */ = {
+			isa = PBXGroup;
+			children = (
+				90F5C7411CAB83D100D82FC0 /* HudViewController.h */,
+				90F5C7421CAB83D100D82FC0 /* HudViewController.m */,
+				90F5C7441CAB840700D82FC0 /* HudTableCell.h */,
+				90F5C7451CAB840700D82FC0 /* HudTableCell.m */,
+			);
+			path = Hud;
+			sourceTree = "<group>";
+		};
+		90F5C7471CABC1D000D82FC0 /* RJImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				90F5C7481CABC1DD00D82FC0 /* RJCircularLoaderView.h */,
+				90F5C7491CABC1DD00D82FC0 /* RJCircularLoaderView.m */,
+				90F5C74A1CABC1DD00D82FC0 /* UIImageView+RJLoader.h */,
+				90F5C74B1CABC1DD00D82FC0 /* UIImageView+RJLoader.m */,
+			);
+			path = RJImageLoader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1425,10 +1515,12 @@
 				90E3D7EE1CAA78D50045C54C /* ViewController.m in Sources */,
 				90E80EB61CAA7DA500F5BF51 /* UIImageView+HighlightedWebCache.m in Sources */,
 				90E80E8C1CAA7DA500F5BF51 /* MJFoundation.m in Sources */,
+				90F402D31CAD156900E3FA01 /* LeftViewController.m in Sources */,
 				90E80EC11CAA7DA500F5BF51 /* JSCollectionViewController+CollectionView.m in Sources */,
 				90E80E921CAA7DA500F5BF51 /* NSObject+MJKeyValue.m in Sources */,
 				90E80E7A1CAA7DA500F5BF51 /* AFNetworkReachabilityManager.m in Sources */,
 				90E80E741CAA7DA500F5BF51 /* JSNetWork+GET.m in Sources */,
+				90F5C73F1CAB83A700D82FC0 /* HUD.m in Sources */,
 				90E80E821CAA7DA500F5BF51 /* NSObject+SBJSON.m in Sources */,
 				90E80EAC1CAA7DA500F5BF51 /* SDWebImageCompat.m in Sources */,
 				90E80EC51CAA7DA500F5BF51 /* BaseFlowLayout.m in Sources */,
@@ -1437,6 +1529,7 @@
 				90E80EA81CAA7DA500F5BF51 /* Reachability.m in Sources */,
 				90E80EB41CAA7DA500F5BF51 /* UIImage+MultiFormat.m in Sources */,
 				90E80E971CAA7DA500F5BF51 /* MJRefreshComponent.m in Sources */,
+				90F5C74C1CABC1DD00D82FC0 /* RJCircularLoaderView.m in Sources */,
 				90E80E7C1CAA7DA500F5BF51 /* AFURLConnectionOperation.m in Sources */,
 				90E80EF71CAA80F100F5BF51 /* NormalTableViewController.m in Sources */,
 				90E80EAA1CAA7DA500F5BF51 /* NSData+ImageContentType.m in Sources */,
@@ -1466,6 +1559,7 @@
 				90E80EA21CAA7DA500F5BF51 /* MJRefreshStateHeader.m in Sources */,
 				90E80ECB1CAA7DA500F5BF51 /* JSTableViewController+TableHeaderFooter.m in Sources */,
 				90E80E711CAA7DA500F5BF51 /* JSUserSingletonModel.m in Sources */,
+				90F5C74D1CABC1DD00D82FC0 /* UIImageView+RJLoader.m in Sources */,
 				90E80EB21CAA7DA500F5BF51 /* UIButton+WebCache.m in Sources */,
 				90E80E911CAA7DA500F5BF51 /* NSObject+MJCoding.m in Sources */,
 				90E80E9D1CAA7DA500F5BF51 /* MJRefreshBackGifFooter.m in Sources */,
@@ -1496,6 +1590,7 @@
 				90E80E761CAA7DA500F5BF51 /* JSNetWork.m in Sources */,
 				90E80E7E1CAA7DA500F5BF51 /* AFURLResponseSerialization.m in Sources */,
 				90E80EB71CAA7DA500F5BF51 /* UIImageView+WebCache.m in Sources */,
+				90F402CE1CAD14D000E3FA01 /* JASidePanelController.m in Sources */,
 				90E80E9C1CAA7DA500F5BF51 /* MJRefreshAutoStateFooter.m in Sources */,
 				90E80E901CAA7DA500F5BF51 /* NSObject+MJClass.m in Sources */,
 				90E80EE31CAA7DA500F5BF51 /* UIView+FrameLayout.m in Sources */,
@@ -1504,12 +1599,15 @@
 				90E80EC41CAA7DA500F5BF51 /* JSCollectionViewController.m in Sources */,
 				90E80ED01CAA7DA500F5BF51 /* WeChatStylePlaceHolder.m in Sources */,
 				90E80ECE1CAA7DA500F5BF51 /* UICollectionView+CYLTableViewPlaceHolder.m in Sources */,
+				90F5C7461CAB840700D82FC0 /* HudTableCell.m in Sources */,
 				90E80EE71CAA7DA500F5BF51 /* NSObject+UICateGory.m in Sources */,
 				90E3D7EB1CAA78D50045C54C /* AppDelegate.m in Sources */,
 				90E3D7E81CAA78D50045C54C /* main.m in Sources */,
 				90E80E8A1CAA7DA500F5BF51 /* MJDictionaryCache.m in Sources */,
 				90E80EC01CAA7DA500F5BF51 /* JSBasicViewController.m in Sources */,
+				90F402D61CAD15FF00E3FA01 /* RightViewController.m in Sources */,
 				90E80EC21CAA7DA500F5BF51 /* JSCollectionViewController+MJRefresh.m in Sources */,
+				90F402CF1CAD14D000E3FA01 /* UIViewController+JASidePanel.m in Sources */,
 				90E80F0E1CAA82C100F5BF51 /* CollectionFooterView.m in Sources */,
 				90E80E8F1CAA7DA500F5BF51 /* MJPropertyType.m in Sources */,
 				90E80EC31CAA7DA500F5BF51 /* JSCollectionViewController+NotWorkView.m in Sources */,
@@ -1522,6 +1620,7 @@
 				90E80E8D1CAA7DA500F5BF51 /* MJProperty.m in Sources */,
 				90E80E991CAA7DA500F5BF51 /* MJRefreshHeader.m in Sources */,
 				90E80E721CAA7DA500F5BF51 /* JSMD5.m in Sources */,
+				90F5C7431CAB83D100D82FC0 /* HudViewController.m in Sources */,
 				90E80EBD1CAA7DA500F5BF51 /* SDCollectionViewCell.m in Sources */,
 				90E80ECA1CAA7DA500F5BF51 /* JSTableViewController+StretchableTableHeaderView.m in Sources */,
 				90E80ED51CAA7DA500F5BF51 /* CYLTabBarController.m in Sources */,
@@ -1529,6 +1628,7 @@
 				90E80E9B1CAA7DA500F5BF51 /* MJRefreshAutoNormalFooter.m in Sources */,
 				90E80ECF1CAA7DA500F5BF51 /* UITableView+CYLTableViewPlaceHolder.m in Sources */,
 				90E80E961CAA7DA500F5BF51 /* MJRefreshBackFooter.m in Sources */,
+				90F402DC1CAD1EBE00E3FA01 /* CenterViewController.m in Sources */,
 				90E80ED11CAA7DA500F5BF51 /* XTNetReloader.m in Sources */,
 				90E80ED21CAA7DA500F5BF51 /* MBProgressHUD+Add.m in Sources */,
 				90E80EB11CAA7DA500F5BF51 /* SDWebImagePrefetcher.m in Sources */,

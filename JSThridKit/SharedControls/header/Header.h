@@ -33,6 +33,11 @@
 #import "MacroHeader.h"
 
 
+//侧滑框架
+
+#import "JASidePanelController.h"
+
+
 #pragma mark -----------第三方头文件------------
 
 

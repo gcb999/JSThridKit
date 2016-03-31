@@ -1,14 +1,13 @@
 //
-//  HomeViewController.m
+//  LeftViewController.m
 //  JSThridKit
 //
-//  Created by gcb999 on 16/3/29.
+//  Created by gcb999 on 16/3/31.
 //  Copyright © 2016年 gcb999. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "LeftViewController.h"
 #import "HomeTableCell.h"
-
 //tableview
 #import "NormalTableViewController.h"
 #import "HeaderAnimationTableViewViewController.h"
@@ -22,12 +21,14 @@
 
 #import "HudViewController.h"
 
+#import "JASidePanelController.h"
+#import "RightViewController.h"
 
-@interface HomeViewController ()<JSTableViewControllerDelegate>
+@interface LeftViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation LeftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,8 +36,8 @@
     self.title=@"home";
     self.view.backgroundColor=[UIColor whiteColor];
     
-  
-
+    
+    
     
     
     
@@ -58,7 +59,7 @@
                     @"TableView用法",
                     @"TableView头部动画用法",
                     @"CollectionView用法",
-                    @"CollectionView流水布局",
+                    @"打开左侧滑",
                     @"CYLTabBarController的用法",
                     @"HUD的用法",
                     ];
@@ -70,36 +71,46 @@
 
 -(void)JSTableViewController:(JSTableViewController *)SWCtrl didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    UINavigationController *nav=(UINavigationController *)self.JASidePanelCtrl.centerPanel;
+    [nav popToRootViewControllerAnimated:YES];
+    
+    //关闭左边
+    [self.JASidePanelCtrl toggleLeftPanel:nil];
+    
+    //显示左边
+    //[self.sidePanelCtrl showLeftPanelAnimated:YES];
+
     if (indexPath.row==0) {
+        
+        
+     
         NormalTableViewController *ctrl=[[NormalTableViewController alloc] init];
-        [self.navigationController pushViewController:ctrl animated:YES];
+        [nav pushViewController:ctrl animated:YES];
     }
     else if (indexPath.row==1) {
         HeaderAnimationTableViewViewController *ctrl=[[HeaderAnimationTableViewViewController alloc] init];
-        [self.navigationController pushViewController:ctrl animated:YES];
+              [nav pushViewController:ctrl animated:YES];
     }
     else if (indexPath.row==2) {
         NormalCollecionViewController *ctrl=[[NormalCollecionViewController alloc] init];
-        [self.navigationController pushViewController:ctrl animated:YES];
+               [nav pushViewController:ctrl animated:YES];
     }
     else if (indexPath.row==3) {
-        FlowOutCollectionViewController *ctrl=[[FlowOutCollectionViewController alloc] init];
-        [self.navigationController pushViewController:ctrl animated:YES];
+        [self.JASidePanelCtrl toggleLeftPanel:nil];
     }
     else if (indexPath.row==4) {
         JSTabbarViewController *ctrl=[[JSTabbarViewController alloc] init];
         [self.navigationController pushViewController:ctrl animated:YES];
     }
     else if (indexPath.row==5) {
-         [[SDImageCache sharedImageCache] clearDisk];
+        [[SDImageCache sharedImageCache] clearDisk];
         HudViewController *ctrl=[[HudViewController alloc] init];
         [self.navigationController pushViewController:ctrl animated:YES];
     }
     
-    //CYLTabBarViewController
+
     
     
 }
-
 
 @end
